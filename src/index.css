@@ -5,9 +5,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+i{
+  cursor: pointer;
+}
+
+#addnote-btn {
+  position: fixed;
+  right: 0 !important;
+  bottom: 0;
+  margin: 3rem 4rem;
+}
+
+.round-btn {
+  border-radius: 50%;
+  transform: scale(1.4);
 }

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#noting {
+  height: 80vh;
+}
+
+#login-component {
+  margin-top: 10rem;
+  
+}
+
+#signup-component {
+  margin-top: 8rem;
+}
+
+#alert-component {
+  margin-top: 3.5rem;
 }
